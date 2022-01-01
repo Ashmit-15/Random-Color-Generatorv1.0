@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background:#e7246a
+}
+#hex-code{
+    font-weight: bold;
+
+}
+
+.container {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    gap:2rem;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.color-generator:hover{
+  opacity: 0.8;
+}
+
+
+.color-generator{
+    font-family: 'Rubik', sans-serif;
+    opacity: 1;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2em;
+    border: none;
+    height: 2rem;
+    width: 10rem;
+}
+
+div#indicator {
+    padding-top: 1rem;
+    display: grid;
+    justify-content: center;
+    outline: solid;
+    outline-color: red;
+    height: 5vh;
+    width: 100vw;
+}
+
+button#copy {
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    height: 2rem;
+    width: 3rem;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+button#copy:hover{
+    opacity: 0.8;
+}
+
+#status-div{
+    font-weight: bold;
+}
